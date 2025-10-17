@@ -9,5 +9,9 @@ references:
 - https://github.com/butter-sh/whip.sh.git
 
 scripts:
-  predocs: "mkdir -p ./docs && cp ./_assets/styles/iconset.css ./docs/iconset.css"
-  docs: "arty predocs && arty exec leaf . --logo ./icon.svg --landing --projects \"$(cat ./projects.json | jq -c .)\" -o ./docs"
+  predocs: |
+    mkdir -p ./docs/_assets/styles &&
+    cp ./_assets/styles/iconset.css ./docs/_assets/styles/iconset.css
+  docs: |
+    arty predocs &&
+    arty exec leaf . --logo ./icon.svg --landing --projects \"$(cat ./projects.json | jq -c .)\" -o ./docs"
