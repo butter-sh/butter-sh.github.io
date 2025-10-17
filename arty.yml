@@ -12,6 +12,7 @@ references:
 scripts:
   icons: |
     INPUT_DIR=./_assets/icons OUTPUT_DIR=./_assets/styles arty exec icony generate
+    mkdir -p ./docs/_assets/styles
     cp ./_assets/styles/iconset.css ./docs/_assets/styles/iconset.css
   predocs: |
     arty icons
