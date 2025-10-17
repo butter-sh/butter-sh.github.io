@@ -1,6 +1,6 @@
 <div align="center">
 
-# <img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg" width="40" height="40" style="border-radius: 10px;"> butter.sh
+# <img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg" width="20" height="20" style="border-radius: 5px;"> butter.sh
 
 **Unlimited. Independent. Fresh.**
 
