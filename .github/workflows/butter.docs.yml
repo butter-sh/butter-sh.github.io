@@ -31,8 +31,8 @@ jobs:
     - name: Install dependencies
       run: arty deps
 
-    - name: Load environment
-      run: source <(arty source leaf.sh)
+    - name: Install environment
+      run: apt install yq -y
 
     - name: Generate documentation
       run: |
