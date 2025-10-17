@@ -36,7 +36,7 @@ jobs:
 
     - name: Generate documentation
       run: |
-        ./leaf.sh --logo ./icon.svg --landing --projects "$(cat projects.json)" -o ./docs
+        arty leaf --logo ./icon.svg --landing --projects "$(cat projects.json)" -o ./docs
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
