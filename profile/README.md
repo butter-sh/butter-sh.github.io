@@ -10,7 +10,7 @@
 
 [![Organization](https://img.shields.io/badge/org-butter--sh-4ade80?style=for-the-badge&logo=github&logoColor=white)](https://github.com/butter-sh)
 [![License](https://img.shields.io/badge/license-MIT-86efac?style=for-the-badge)](LICENSE)
-[![Ecosystem](https://img.shields.io/badge/ecosystem-6_projects-22c55e?style=for-the-badge)](#projects)
+[![Ecosystem](https://img.shields.io/badge/ecosystem-7_projects-22c55e?style=for-the-badge)](#projects)
 [![Fresh](https://img.shields.io/badge/status-fresh-4ade80?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](#)
 
 ---
@@ -121,6 +121,24 @@ SVG icon management system with optimization, organization, and asset generation
 
 [View Project →](https://butter-sh.github.io/icony.sh)
 
+  </td>
+  </tr>
+  <tr>
+    <td width="50%">
+
+### 🎯 whip.sh
+[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/whip.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/whip.sh/actions)
+[![Version](https://img.shields.io/github/v/tag/butter-sh/whip.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/whip.sh/releases)
+[![butter.sh](https://img.shields.io/badge/butter.sh-whip-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://butter-sh.github.io/whip.sh)
+
+**Release cycle management for arty.sh projects**
+
+Complete release automation with semantic versioning, changelog generation, git hooks, and monorepo support.
+
+[View Project →](https://butter-sh.github.io/whip.sh)
+
+  </td>
+    <td width="50%">
   </td>
   </tr>
 </table>
@@ -262,6 +280,9 @@ git clone https://github.com/butter-sh/init.sh.git && cd init.sh && sudo make in
 
 # icony.sh - Icon manager
 git clone https://github.com/butter-sh/icony.sh.git && cd icony.sh && sudo make install
+
+# whip.sh - Release manager  
+curl -sSL https://raw.githubusercontent.com/butter-sh/whip.sh/main/whip.sh | sudo tee /usr/local/bin/whip > /dev/null && sudo chmod +x /usr/local/bin/whip
 ```
 
 ---
@@ -388,11 +409,17 @@ butter.sh ecosystem
 │   ├── Git integration
 │   └── Dependency auto-install
 │
-└── 💧 icony.sh        → Icon management
-    ├── SVG organization
-    ├── Icon optimization
-    ├── Asset generation
-    └── Theme support
+├── 💧 icony.sh        → Icon management
+│   ├── SVG organization
+│   ├── Icon optimization
+│   ├── Asset generation
+│   └── Theme support
+│
+└── 🎯 whip.sh         → Release management
+    ├── Semantic versioning (major/minor/patch)
+    ├── Changelog generation from git
+    ├── Git hooks with validation  
+    └── Monorepo batch operations
 ```
 
 ---
@@ -429,6 +456,7 @@ Each project has comprehensive documentation:
 - **leaf.sh**: [Full Documentation](https://butter-sh.github.io/leaf.sh)
 - **init.sh**: [Full Documentation](https://butter-sh.github.io/init.sh)
 - **icony.sh**: [Full Documentation](https://butter-sh.github.io/icony.sh)
+- **whip.sh**: [Full Documentation](https://butter-sh.github.io/whip.sh)
 
 ---
 
@@ -457,7 +485,7 @@ We love contributions! Each project accepts PRs:
 
 [![Total Stars](https://img.shields.io/badge/dynamic/json?color=4ade80&label=total%20stars&query=%24.stars&url=https%3A%2F%2Fapi.github.com%2Forgs%2Fbutter-sh&style=for-the-badge&logo=github)](https://github.com/butter-sh)
 [![Contributors](https://img.shields.io/badge/contributors-welcome-86efac?style=for-the-badge&logo=github)](https://github.com/butter-sh)
-[![Projects](https://img.shields.io/badge/active_projects-6-22c55e?style=for-the-badge)](#projects)
+[![Projects](https://img.shields.io/badge/active_projects-7-22c55e?style=for-the-badge)](#projects)
 [![Bash](https://img.shields.io/badge/bash-4.0+-4ade80?style=for-the-badge&logo=gnu-bash&logoColor=white)](#)
 
 ---
