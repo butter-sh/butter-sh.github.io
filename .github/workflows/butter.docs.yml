@@ -32,7 +32,7 @@ jobs:
       run: arty deps
 
     - name: Install environment
-      run: apt install yq -y
+      run: sudo apt install yq -y
 
     - name: Generate documentation
       run: |
