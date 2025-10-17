@@ -10,7 +10,9 @@ references:
 - https://github.com/butter-sh/icony.sh.git
 
 scripts:
-  icons: INPUT_DIR=./_assets/icons OUTPUT_DIR=./docs/_assets/styles arty exec icony generate
+  icons: |
+    INPUT_DIR=./_assets/icons OUTPUT_DIR=./_assets/styles arty exec icony generate
+    cp ./_assets/styles/iconset.css ./docs/_assets/styles/iconset.css
   predocs: |
     arty icons
   docs: |
