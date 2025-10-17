@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon.png" width="32" height="32"> 
+<img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon.png" width="64" height="64"> 
 
 # butter.sh
 
