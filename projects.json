@@ -34,5 +34,11 @@
     "label": "icony.sh",
     "desc": "Generate beautiful icon sets from SVG files",
     "class": "icon icon-droplet"
+  },
+  {
+    "url": "https://butter-sh.github.io/whip.sh",
+    "label": "whip.sh",
+    "desc": "Release cycle management for arty.sh projects",
+    "class": "icon icon-swift"
   }
 ]
