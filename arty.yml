@@ -7,11 +7,12 @@ license: "MIT"
 references:
 - https://github.com/butter-sh/leaf.sh.git
 - https://github.com/butter-sh/whip.sh.git
+- https://github.com/butter-sh/icony.sh.git
 
 scripts:
+  icons: INPUT_DIR=./_assets/icons OUTPUT_DIR=./docs/_assets/styles arty exec icony generate
   predocs: |
-    mkdir -p ./docs/_assets/styles &&
-    cp ./_assets/styles/iconset.css ./docs/_assets/styles/iconset.css
+    arty icons
   docs: |
     arty predocs &&
-    arty exec leaf . --logo ./icon.svg --landing --projects \"$(cat ./projects.json | jq -c .)\" -o ./docs"
+    arty exec leaf . --logo ./icon.svg --landing --projects "$(cat ./projects.json | jq -c .)" -o ./docs

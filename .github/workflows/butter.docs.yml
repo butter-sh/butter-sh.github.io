@@ -33,15 +33,13 @@ jobs:
 
     - name: Install environment
       run: |
-        sudo apt install jq -y
+                sudo apt install jq -y
         sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/local/bin/yq
         sudo chmod +x /usr/local/bin/yq
 
     - name: Generate documentation
       run: |
-        arty exec leaf . --logo ./icon.svg --landing --projects "$(cat ./projects.json | jq -c .)" -o ./docs
-        mkdir -p ./docs/_assets/styles
-        cp ./_assets/styles/iconset.css ./docs/_assets/styles/iconset.css
+        arty docs
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
