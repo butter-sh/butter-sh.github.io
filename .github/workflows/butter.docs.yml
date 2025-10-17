@@ -37,6 +37,7 @@ jobs:
     - name: Generate documentation
       run: |
         arty exec leaf . --logo ./icon.svg --landing --projects "$(cat ./projects.json | jq -c .)" -o ./docs
+        cp ./_assets/styles/iconset.css ./docs/iconset.css
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
