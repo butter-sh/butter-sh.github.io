@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/butter-sh/butter.sh/main/_assets/brand/cube-carbon-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/butter-sh/butter.sh/main/_assets/brand/cube-carbon-light.svg">
-  <img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter.sh/main/_assets/brand/cube-carbon-light.svg" width="120" height="120" style="mask: url(#cube-mask);">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg">
+  <img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg" width="120" height="120" style="mask: url(#cube-mask);">
 </picture>
 
 # 🧈 butter.sh
@@ -51,8 +51,8 @@ Complete dependency management for bash projects with YAML configuration, setup 
 
 [View Project →](https://butter-sh.github.io/arty.sh)
 
-    </td>
-    <td width="50%">
+  </td>
+  <td width="50%">
 
 ### 🔨 hammer.sh
 [![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/hammer.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/hammer.sh/actions)
@@ -65,7 +65,7 @@ Scaffolding tool with built-in templates, variable substitution, and smart overw
 
 [View Project →](https://butter-sh.github.io/hammer.sh)
 
-    </td>
+  </td>
   </tr>
   <tr>
     <td width="50%">
@@ -81,8 +81,8 @@ Comprehensive testing framework with rich assertions, snapshot testing, and beau
 
 [View Project →](https://butter-sh.github.io/judge.sh)
 
-    </td>
-    <td width="50%">
+  </td>
+  <td width="50%">
 
 ### 🍃 leaf.sh
 [![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/leaf.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/leaf.sh/actions)
@@ -95,7 +95,7 @@ Beautiful static HTML documentation generator with responsive design, syntax hig
 
 [View Project →](https://butter-sh.github.io/leaf.sh)
 
-    </td>
+  </td>
   </tr>
   <tr>
     <td width="50%">
@@ -111,8 +111,8 @@ Project initialization system with multiple templates, interactive mode, and bui
 
 [View Project →](https://butter-sh.github.io/init.sh)
 
-    </td>
-    <td width="50%">
+  </td>
+  <td width="50%">
 
 ### 💧 icony.sh
 [![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/icony.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/icony.sh/actions)
@@ -125,7 +125,7 @@ SVG icon management system with optimization, organization, and asset generation
 
 [View Project →](https://butter-sh.github.io/icony.sh)
 
-    </td>
+  </td>
   </tr>
 </table>
 
