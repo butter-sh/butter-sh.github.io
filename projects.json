@@ -3,42 +3,42 @@
     "url": "https://butter-sh.github.io/arty.sh",
     "label": "arty.sh",
     "desc": "Install bash libraries from Git repositories",
-    "class": "icon icon-package"
+    "class": "icon icon-package card-project"
   },
   {
     "url": "https://butter-sh.github.io/hammer.sh",
     "label": "hammer.sh",
     "desc": "Generate projects from templates",
-    "class": "icon icon-forge"
+    "class": "icon icon-forge card-project"
   },
   {
     "url": "https://butter-sh.github.io/judge.sh",
     "label": "judge.sh",
     "desc": "Full assertion library for snapshot testing",
-    "class": "icon icon-shield-check"
+    "class": "icon icon-shield-check card-project"
   },
   {
     "url": "https://butter-sh.github.io/leaf.sh",
     "label": "leaf.sh",
     "desc": "Transforms projects into documentation websites",
-    "class": "icon icon-leaf"
+    "class": "icon icon-leaf card-project"
   },
   {
     "url": "https://butter-sh.github.io/init.sh",
     "label": "init.sh",
     "desc": "Basic, CLI, Library, and Web service templates",
-    "class": "icon icon-zap"
+    "class": "icon icon-zap card-project"
   },
   {
     "url": "https://butter-sh.github.io/icony.sh",
     "label": "icony.sh",
     "desc": "Generate beautiful icon sets from SVG files",
-    "class": "icon icon-droplet"
+    "class": "icon icon-droplet card-project"
   },
   {
     "url": "https://butter-sh.github.io/whip.sh",
     "label": "whip.sh",
     "desc": "Release cycle management for arty.sh projects",
-    "class": "icon icon-swift"
+    "class": "icon icon-swift card-project"
   }
 ]
