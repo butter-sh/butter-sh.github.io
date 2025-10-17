@@ -1,10 +1,7 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg">
-  <img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg" width="120" height="120" style="mask: url(#cube-mask);">
-</picture>
+<img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon-light.svg" width="40" height="40" style="border-radius: 10px;">
+
 
 # 🧈 butter.sh
 
