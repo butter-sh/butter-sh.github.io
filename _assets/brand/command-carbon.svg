@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="command-carbon-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="command-carbon-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#95a5a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7f8c8d;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="carbon-texture-command" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#1a1a1a"/>
+      <circle cx="1" cy="1" r="0.5" fill="#2c3e50" opacity="0.3"/>
+      <circle cx="3" cy="3" r="0.5" fill="#2c3e50" opacity="0.3"/>
+    </pattern>
+    <filter id="command-carbon-shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="3" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background full area with carbon gradient and texture -->
+  <rect x="0" y="0" width="64" height="64" fill="url(#command-carbon-bg)"/>
+  <rect x="0" y="0" width="64" height="64" fill="url(#carbon-texture-command)" opacity="0.5"/>
+  
+  <!-- Icon centered and scaled up -->
+  <g transform="translate(14, 14) scale(1.5)" filter="url(#command-carbon-shadow)">
+    <polyline points="4 17 10 11 4 5" 
+              fill="none" 
+              stroke="url(#command-carbon-stroke)" 
+              stroke-width="2" 
+              stroke-linecap="round" 
+              stroke-linejoin="round"/>
+    <line x1="12" y1="19" x2="20" y2="19" 
+          stroke="url(#command-carbon-stroke)" 
+          stroke-width="2" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+</svg>
