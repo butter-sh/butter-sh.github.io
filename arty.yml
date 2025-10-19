@@ -1,0 +1,21 @@
+name: "butter.sh"
+version: "1.0.0"
+description: "A bash ecosystem"
+author: "valknar@pivoine.art"
+license: "MIT"
+
+references:
+- https://github.com/butter-sh/leaf.sh.git
+- https://github.com/butter-sh/whip.sh.git
+- https://github.com/butter-sh/icony.sh.git
+
+scripts:
+  icons: |
+    INPUT_DIR=./_assets/icons OUTPUT_DIR=./_assets/styles arty exec icony generate
+    mkdir -p ./docs/_assets/styles
+    cp ./_assets/styles/iconset.css ./docs/_assets/styles/iconset.css
+  predocs: |
+    arty icons
+  docs: |
+    arty predocs &&
+    arty exec leaf . --logo ./icon.svg --landing --projects "$(cat ./projects.json | jq -c .)" -o ./docs
