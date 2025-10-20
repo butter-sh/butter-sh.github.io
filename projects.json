@@ -2,50 +2,55 @@
   {
     "url": "https://butter-sh.github.io/arty.sh",
     "label": "arty.sh",
-    "desc": "Install bash libraries from Git repositories",
-		"icon": "icon icon-package",
-    "class": "card-project"
+    "desc": "Install bash libraries from Git repositories with complete dependency management",
+    "icon": "icon icon-package",
+    "class": "card-project",
+    "emoji": "📦",
+    "tagline": "Bash library dependency manager"
   },
   {
     "url": "https://butter-sh.github.io/hammer.sh",
     "label": "hammer.sh",
-    "desc": "Generate projects from templates",
-		"icon": "icon icon-forge",
-    "class": "card-project"
+    "desc": "Generate projects from templates with variable substitution and smart overwrite handling",
+    "icon": "icon icon-forge",
+    "class": "card-project",
+    "emoji": "🔨",
+    "tagline": "Project scaffolding tool"
   },
   {
     "url": "https://butter-sh.github.io/judge.sh",
     "label": "judge.sh",
-    "desc": "Full assertion library for snapshot testing",
-		"icon": "icon icon-shield-check",
-    "class": "card-project"
+    "desc": "Full assertion library with snapshot testing and beautiful colorful output",
+    "icon": "icon icon-shield-check",
+    "class": "card-project",
+    "emoji": "🛡️",
+    "tagline": "Bash testing framework"
   },
   {
     "url": "https://butter-sh.github.io/leaf.sh",
     "label": "leaf.sh",
-    "desc": "Transforms projects into documentation websites",
-		"icon": "icon icon-leaf",
-    "class": "card-project"
+    "desc": "Transform projects into beautiful documentation websites with responsive design",
+    "icon": "icon icon-leaf",
+    "class": "card-project",
+    "emoji": "🍃",
+    "tagline": "Documentation generator"
   },
   {
-    "url": "https://butter-sh.github.io/init.sh",
-    "label": "init.sh",
-    "desc": "Basic, CLI, Library, and Web service templates",
-		"icon": "icon icon-zap",
-    "class": "card-project"
-  },
-  {
-    "url": "https://butter-sh.github.io/icony.sh",
-    "label": "icony.sh",
-    "desc": "Generate beautiful icon sets from SVG files",
-		"icon": "icon icon-droplet",
-    "class": "card-project"
+    "url": "https://butter-sh.github.io/myst.sh",
+    "label": "myst.sh",
+    "desc": "Mustache-style templating engine with inheritance, partials, and multiple input formats",
+    "icon": "icon icon-sparkles",
+    "class": "card-project",
+    "emoji": "✨",
+    "tagline": "Bash templating engine"
   },
   {
     "url": "https://butter-sh.github.io/whip.sh",
     "label": "whip.sh",
-    "desc": "Release cycle management for arty.sh projects",
-		"icon": "icon icon-swift",
-    "class": "card-project"
+    "desc": "Release cycle management with semantic versioning, changelog generation, and git hooks",
+    "icon": "icon icon-target",
+    "class": "card-project",
+    "emoji": "🎯",
+    "tagline": "Release automation tool"
   }
 ]
