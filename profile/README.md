@@ -10,7 +10,7 @@
 
 [![Organization](https://img.shields.io/badge/org-butter--sh-4ade80?style=for-the-badge&logo=github&logoColor=white)](https://github.com/butter-sh)
 [![License](https://img.shields.io/badge/license-MIT-86efac?style=for-the-badge)](LICENSE)
-[![Ecosystem](https://img.shields.io/badge/ecosystem-7_projects-22c55e?style=for-the-badge)](#projects)
+[![Ecosystem](https://img.shields.io/badge/ecosystem-6_projects-22c55e?style=for-the-badge)](#projects)
 [![Fresh](https://img.shields.io/badge/status-fresh-4ade80?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](#)
 
 ---
@@ -39,13 +39,13 @@ We believe in:
 ### 📦 arty.sh
 [![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/arty.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/arty.sh/actions)
 [![Version](https://img.shields.io/github/v/tag/butter-sh/arty.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/arty.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-arty-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://butter-sh.github.io/arty.sh)
+[![butter.sh](https://img.shields.io/badge/butter.sh-arty-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/arty.sh)
 
 **Install bash libraries from Git repositories**
 
 Complete dependency management for bash projects with YAML configuration, setup hooks, and binary linking.
 
-[View Project →](https://butter-sh.github.io/arty.sh)
+[View Project →](https://github.com/butter-sh/arty.sh)
 
   </td>
   <td width="50%">
@@ -53,13 +53,13 @@ Complete dependency management for bash projects with YAML configuration, setup 
 ### 🔨 hammer.sh
 [![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/hammer.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/hammer.sh/actions)
 [![Version](https://img.shields.io/github/v/tag/butter-sh/hammer.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/hammer.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-hammer-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://butter-sh.github.io/hammer.sh)
+[![butter.sh](https://img.shields.io/badge/butter.sh-hammer-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/hammer.sh)
 
 **Generate projects from templates**
 
 Scaffolding tool with built-in templates, variable substitution, and smart overwrite handling.
 
-[View Project →](https://butter-sh.github.io/hammer.sh)
+[View Project →](https://github.com/butter-sh/hammer.sh)
 
   </td>
   </tr>
@@ -67,15 +67,15 @@ Scaffolding tool with built-in templates, variable substitution, and smart overw
     <td width="50%">
 
 ### 🛡️ judge.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/judge.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/judge.sh)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/judge.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/judge.sh/actions)
 [![Version](https://img.shields.io/github/v/tag/butter-sh/judge.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/judge.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-judge-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://butter-sh.github.io/judge.sh)
+[![butter.sh](https://img.shields.io/badge/butter.sh-judge-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/judge.sh)
 
 **Full assertion library for snapshot testing**
 
 Comprehensive testing framework with rich assertions, snapshot testing, and beautiful colorful output.
 
-[View Project →](https://butter-sh.github.io/judge.sh)
+[View Project →](https://github.com/butter-sh/judge.sh)
 
   </td>
   <td width="50%">
@@ -83,62 +83,44 @@ Comprehensive testing framework with rich assertions, snapshot testing, and beau
 ### 🍃 leaf.sh
 [![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/leaf.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/leaf.sh/actions)
 [![Version](https://img.shields.io/github/v/tag/butter-sh/leaf.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/leaf.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-leaf-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://butter-sh.github.io/leaf.sh)
+[![butter.sh](https://img.shields.io/badge/butter.sh-leaf-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/leaf.sh)
 
-**Transforms projects into documentation websites**
+**Transform projects into documentation websites**
 
 Beautiful static HTML documentation generator with responsive design, syntax highlighting, and dark/light themes.
 
-[View Project →](https://butter-sh.github.io/leaf.sh)
+[View Project →](https://github.com/butter-sh/leaf.sh)
 
   </td>
   </tr>
   <tr>
     <td width="50%">
 
-### ⚡ init.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/init.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/init.sh/actions)
-[![Version](https://img.shields.io/github/v/tag/butter-sh/init.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/init.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-init-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://butter-sh.github.io/init.sh)
+### ✨ myst.sh
+[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/myst.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/myst.sh/actions)
+[![Version](https://img.shields.io/github/v/tag/butter-sh/myst.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/myst.sh/releases)
+[![butter.sh](https://img.shields.io/badge/butter.sh-myst-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9ibj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/myst.sh)
 
-**Basic, CLI, Library, and Web service templates**
+**Mustache-style templating engine**
 
-Project initialization system with multiple templates, interactive mode, and built-in test framework.
+State-of-the-art bash templating with inheritance, partials, and multiple input formats (JSON, YAML, ENV).
 
-[View Project →](https://butter-sh.github.io/init.sh)
+[View Project →](https://github.com/butter-sh/myst.sh)
 
   </td>
   <td width="50%">
 
-### 💧 icony.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/icony.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/icony.sh/actions)
-[![Version](https://img.shields.io/github/v/tag/butter-sh/icony.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/icony.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-icony-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://butter-sh.github.io/icony.sh)
-
-**Generate beautiful icon sets from SVG files**
-
-SVG icon management system with optimization, organization, and asset generation capabilities.
-
-[View Project →](https://butter-sh.github.io/icony.sh)
-
-  </td>
-  </tr>
-  <tr>
-    <td width="50%">
-
 ### 🎯 whip.sh
 [![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/whip.sh/test.yml?branch=main&style=flat-square&logo=github)](https://github.com/butter-sh/whip.sh/actions)
 [![Version](https://img.shields.io/github/v/tag/butter-sh/whip.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/whip.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-whip-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://butter-sh.github.io/whip.sh)
+[![butter.sh](https://img.shields.io/badge/butter.sh-whip-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/whip.sh)
 
 **Release cycle management for arty.sh projects**
 
 Complete release automation with semantic versioning, changelog generation, git hooks, and monorepo support.
 
-[View Project →](https://butter-sh.github.io/whip.sh)
+[View Project →](https://github.com/butter-sh/whip.sh)
 
-  </td>
-    <td width="50%">
   </td>
   </tr>
 </table>
@@ -148,8 +130,6 @@ Complete release automation with semantic versioning, changelog generation, git 
 ## 🎬 See It In Action
 
 ### Installing arty.sh and Managing Dependencies
-
-<a href="https://asciinema.org/a/butter-arty-demo" target="_blank"><img src="https://asciinema.org/a/butter-arty-demo.svg" width="600"/></a>
 
 ```bash
 # Quick install arty.sh
@@ -173,76 +153,57 @@ arty exec kompose --help
 
 ### Generating Projects with hammer.sh
 
-<a href="https://asciinema.org/a/butter-hammer-demo" target="_blank"><img src="https://asciinema.org/a/butter-hammer-demo.svg" width="600"/></a>
-
 ```bash
-# Install hammer.sh
-curl -sSL https://raw.githubusercontent.com/butter-sh/hammer.sh/main/hammer.sh | sudo tee /usr/local/bin/hammer > /dev/null
-sudo chmod +x /usr/local/bin/hammer
+# Install hammer.sh via arty.sh
+arty install https://github.com/butter-sh/hammer.sh.git
 
 # List available templates
-hammer --list
+arty exec hammer --list
 
 # Generate a new project
-hammer starter my-project \
-  -v author="Your Name" \
-  -v license=MIT
+arty exec hammer starter my-project
 
 # Generate with arty template
-hammer arty my-library-manager
+arty exec hammer arty my-library-manager
 cd my-library-manager
-./arty.sh --help
 
 # Create documentation site
-hammer leaf my-docs
+arty exec hammer leaf my-docs
 cd my-docs
-./leaf.sh ../my-project
 ```
 
 ### Testing with judge.sh
 
-<a href="https://asciinema.org/a/butter-judge-demo" target="_blank"><img src="https://asciinema.org/a/butter-judge-demo.svg" width="600"/></a>
-
 ```bash
-# Create a test file
-cat > test_example.sh << 'EOF'
-#!/usr/bin/env bash
-source judge.sh
-
-describe "Math operations"
-  it "should add numbers correctly"
-    result=$((2 + 2))
-    assert_equals 4 "$result"
-  ti
-
-  it "should handle multiplication"
-    result=$((5 * 3))
-    assert_equals 15 "$result"
-  ti
-ebed
-EOF
+# Install judge.sh
+git clone https://github.com/butter-sh/judge.sh.git
+cd judge.sh
+./setup.sh
 
 # Run tests
-judge test test_example.sh
+./judge.sh run
 
-# Run with snapshots
-judge test --snapshot test_example.sh
+# Run with verbose output
+./judge.sh run -v
+
+# Update snapshots
+./judge.sh run -u
 ```
 
 ### Creating Documentation with leaf.sh
 
-<a href="https://asciinema.org/a/butter-leaf-demo" target="_blank"><img src="https://asciinema.org/a/butter-leaf-demo.svg" width="600"/></a>
-
 ```bash
-# Generate documentation for a project
-leaf.sh /path/to/your/project
+# Install leaf.sh via arty.sh
+arty install https://github.com/butter-sh/leaf.sh.git
 
-# Documentation will be created in ./docs/
-# Open in browser
-open docs/index.html
+# Generate documentation for a project
+arty exec leaf /path/to/your/project
+
+# Generate with custom output
+arty exec leaf . -o ./public
 
 # Features:
-# ✨ Responsive design with Tailwind CSS
+# ✨ Responsive design with modern themes
 # 🎨 Syntax highlighting
 # 🌓 Dark/light theme support
 # 📱 Mobile-friendly
@@ -253,36 +214,36 @@ open docs/index.html
 
 ## 🚀 Quick Start
 
-### One-Line Install All Tools
+### Install Core Tools
 
 ```bash
-# Install the entire butter.sh ecosystem
-curl -sSL https://butter.sh/install.sh | bash
+# Install arty.sh (dependency manager)
+curl -sSL https://raw.githubusercontent.com/butter-sh/arty.sh/main/arty.sh | sudo tee /usr/local/bin/arty > /dev/null
+sudo chmod +x /usr/local/bin/arty
+
+# Install hammer.sh (project generator)
+curl -sSL https://raw.githubusercontent.com/butter-sh/hammer.sh/main/hammer.sh | sudo tee /usr/local/bin/hammer > /dev/null
+sudo chmod +x /usr/local/bin/hammer
+
+# Install whip.sh (release manager)
+curl -sSL https://raw.githubusercontent.com/butter-sh/whip.sh/main/whip.sh | sudo tee /usr/local/bin/whip > /dev/null
+sudo chmod +x /usr/local/bin/whip
 ```
 
-### Or Install Individual Tools
+### Install via Git Clone
 
 ```bash
-# arty.sh - Library manager
-curl -sSL https://raw.githubusercontent.com/butter-sh/arty.sh/main/arty.sh | sudo tee /usr/local/bin/arty > /dev/null && sudo chmod +x /usr/local/bin/arty
+# Clone individual projects
+git clone https://github.com/butter-sh/judge.sh.git
+git clone https://github.com/butter-sh/leaf.sh.git
+git clone https://github.com/butter-sh/myst.sh.git
 
-# hammer.sh - Project generator
-curl -sSL https://raw.githubusercontent.com/butter-sh/hammer.sh/main/hammer.sh | sudo tee /usr/local/bin/hammer > /dev/null && sudo chmod +x /usr/local/bin/hammer
-
-# judge.sh - Testing framework
-git clone https://github.com/butter-sh/judge.sh.git && cd judge.sh && sudo make install
-
-# leaf.sh - Documentation generator
-git clone https://github.com/butter-sh/leaf.sh.git && cd leaf.sh && sudo make install
-
-# init.sh - Project initializer
-git clone https://github.com/butter-sh/init.sh.git && cd init.sh && sudo make install
-
-# icony.sh - Icon manager
-git clone https://github.com/butter-sh/icony.sh.git && cd icony.sh && sudo make install
-
-# whip.sh - Release manager  
-curl -sSL https://raw.githubusercontent.com/butter-sh/whip.sh/main/whip.sh | sudo tee /usr/local/bin/whip > /dev/null && sudo chmod +x /usr/local/bin/whip
+# Or use arty.sh to manage them
+arty init my-project
+cd my-project
+arty install https://github.com/butter-sh/judge.sh.git
+arty install https://github.com/butter-sh/leaf.sh.git
+arty install https://github.com/butter-sh/myst.sh.git
 ```
 
 ---
@@ -304,36 +265,48 @@ awesome_function() {
 }
 EOF
 
-# 3. Create tests with judge.sh
+# 3. Install judge.sh for testing
+arty install https://github.com/butter-sh/judge.sh.git
+
+# 4. Create tests with judge.sh
 cat > test_lib.sh << 'EOF'
 #!/usr/bin/env bash
-source judge.sh
+source "$(arty source judge.sh)/test-helpers.sh"
 source my-awesome-lib.sh
 
-describe "Awesome library"
-  it "should be awesome"
-    result=$(awesome_function)
-    assert_contains "Butter" "$result"
-  ti
-ebed
+log_section "Awesome library tests"
+setup_test_env
+
+log_test "should be awesome"
+result=$(awesome_function)
+assert_contains "$result" "Butter"
+
+cleanup_test_env
+print_test_summary
 EOF
 
-# 4. Run tests
-judge test test_lib.sh
+# 5. Run tests
+arty exec judge run
 
-# 5. Generate documentation with leaf.sh
-leaf.sh .
+# 6. Install leaf.sh for documentation
+arty install https://github.com/butter-sh/leaf.sh.git
 
-# 6. Initialize new project that uses your library with init.sh
+# 7. Generate documentation
+arty exec leaf .
+
+# 8. Install whip.sh for releases
+arty install https://github.com/butter-sh/whip.sh.git
+
+# 9. Create a release
+arty exec whip release patch
+
+# 10. Use your library in another project
 cd ..
-init.sh consumer-project --template cli
+arty init consumer-project
 cd consumer-project
-
-# 7. Add your library as dependency with arty.sh
 arty install ../my-awesome-lib
-arty deps
 
-# 8. Use it in your project
+# 11. Use it
 cat > main.sh << 'EOF'
 #!/usr/bin/env bash
 source <(arty source my-awesome-lib)
@@ -386,7 +359,7 @@ butter.sh ecosystem
 │   └── Binary linking for executables
 │
 ├── 🔨 hammer.sh        → Project scaffolding & generation
-│   ├── Built-in templates (arty, starter, leaf, init, judge, icony)
+│   ├── Built-in templates (arty, starter, leaf, judge, myst, whip)
 │   ├── Variable substitution
 │   ├── Smart overwrite handling
 │   └── Custom template support
@@ -400,20 +373,16 @@ butter.sh ecosystem
 ├── 🍃 leaf.sh         → Documentation generation
 │   ├── Markdown to HTML
 │   ├── Syntax highlighting
-│   ├── Responsive design (Tailwind CSS)
+│   ├── Responsive design
 │   └── Dark/light theme
+│   └── Powered by myst.sh
 │
-├── ⚡ init.sh         → Project initialization
-│   ├── Multiple templates (basic, cli, lib, web)
-│   ├── Interactive mode
-│   ├── Git integration
-│   └── Dependency auto-install
-│
-├── 💧 icony.sh        → Icon management
-│   ├── SVG organization
-│   ├── Icon optimization
-│   ├── Asset generation
-│   └── Theme support
+├── ✨ myst.sh         → Templating engine
+│   ├── Mustache-style syntax
+│   ├── Template inheritance
+│   ├── Partials support
+│   ├── Multiple input formats (JSON, YAML, ENV)
+│   └── Embeddable as library
 │
 └── 🎯 whip.sh         → Release management
     ├── Semantic versioning (major/minor/patch)
@@ -450,13 +419,12 @@ butter.sh ecosystem
 
 Each project has comprehensive documentation:
 
-- **arty.sh**: [Full Documentation](https://butter-sh.github.io/arty.sh)
-- **hammer.sh**: [Full Documentation](https://butter-sh.github.io/hammer.sh)
-- **judge.sh**: [Full Documentation](https://butter-sh.github.io/judge.sh)
-- **leaf.sh**: [Full Documentation](https://butter-sh.github.io/leaf.sh)
-- **init.sh**: [Full Documentation](https://butter-sh.github.io/init.sh)
-- **icony.sh**: [Full Documentation](https://butter-sh.github.io/icony.sh)
-- **whip.sh**: [Full Documentation](https://butter-sh.github.io/whip.sh)
+- **[arty.sh](https://github.com/butter-sh/arty.sh)** - Dependency management
+- **[hammer.sh](https://github.com/butter-sh/hammer.sh)** - Project generator
+- **[judge.sh](https://github.com/butter-sh/judge.sh)** - Testing framework
+- **[leaf.sh](https://github.com/butter-sh/leaf.sh)** - Documentation generator
+- **[myst.sh](https://github.com/butter-sh/myst.sh)** - Templating engine
+- **[whip.sh](https://github.com/butter-sh/whip.sh)** - Release management
 
 ---
 
@@ -485,7 +453,7 @@ We love contributions! Each project accepts PRs:
 
 [![Total Stars](https://img.shields.io/badge/dynamic/json?color=4ade80&label=total%20stars&query=%24.stars&url=https%3A%2F%2Fapi.github.com%2Forgs%2Fbutter-sh&style=for-the-badge&logo=github)](https://github.com/butter-sh)
 [![Contributors](https://img.shields.io/badge/contributors-welcome-86efac?style=for-the-badge&logo=github)](https://github.com/butter-sh)
-[![Projects](https://img.shields.io/badge/active_projects-7-22c55e?style=for-the-badge)](#projects)
+[![Projects](https://img.shields.io/badge/active_projects-6-22c55e?style=for-the-badge)](#projects)
 [![Bash](https://img.shields.io/badge/bash-4.0+-4ade80?style=for-the-badge&logo=gnu-bash&logoColor=white)](#)
 
 ---
@@ -499,10 +467,8 @@ All butter.sh projects are released under the **MIT License**. See individual pr
 ## 🔗 Links
 
 - **Organization**: [github.com/butter-sh](https://github.com/butter-sh)
-- **Website**: [butter.sh](https://butter.sh) *(coming soon)*
+- **Author**: [github.com/valknarogg](https://github.com/valknarogg)
 - **Documentation**: Individual project pages
-- **Chat**: [Join our Discord](https://discord.gg/butter-sh) *(coming soon)*
-- **Twitter**: [@butter_sh](https://twitter.com/butter_sh) *(coming soon)*
 
 ---
 
@@ -512,9 +478,7 @@ Join the butter.sh community:
 
 - 🐛 **Report bugs**: Open issues in individual project repos
 - 💡 **Feature requests**: Start a discussion in the relevant project
-- 📧 **Email**: hello@butter.sh
-- 💬 **Discord**: Coming soon!
-- 🐦 **Twitter**: Coming soon!
+- ⭐ **Star projects**: Show your support on GitHub
 
 ---
 
@@ -530,12 +494,12 @@ butter.sh is built on the shoulders of giants:
 
 <div align="center">
 
-### Made with 🧈 by the butter.sh team
+### Made with 🧈 by [valknar](https://github.com/valknarogg)
 
 **Unlimited. Independent. Fresh.**
 
 [![Star History](https://img.shields.io/github/stars/butter-sh?style=social)](https://github.com/butter-sh)
-[![Follow](https://img.shields.io/github/followers/butter-sh?label=Follow&style=social)](https://github.com/butter-sh)
+[![Follow](https://img.shields.io/github/followers/valknarogg?label=Follow&style=social)](https://github.com/valknarogg)
 
 *Spread the butter! ⭐ Star our projects if you find them useful.*
 
