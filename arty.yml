@@ -20,3 +20,49 @@ scripts:
   docs: |
     arty predocs &&
     arty exec leaf landing --logo ./icon.svg --projects "$(cat ./projects.json | jq -c .)" -o ./docs
+
+leaf:
+  landing:
+    projects:
+    - url: https://butter-sh.github.io/arty.sh
+      label: arty.sh
+      desc: Dependency manager for bash libraries with complete package management and Git repository integration
+      icon: icon icon-package
+      class: card-project
+      tagline: Bash dependency manager
+    - url: https://butter-sh.github.io/judge.sh
+      label: judge.sh
+      desc: Professional testing framework with comprehensive assertion library, snapshot testing, and detailed reporting
+      icon: icon icon-shield-check
+      class: card-project
+      tagline: Bash testing framework
+    - url: https://butter-sh.github.io/myst.sh
+      label: myst.sh
+      desc: Advanced mustache-style templating engine with conditionals, loops, partials, inheritance, and multi-format input
+      icon: icon icon-sparkles
+      class: card-project
+      tagline: Bash templating engine
+    - url: https://butter-sh.github.io/hammer.sh
+      label: hammer.sh
+      desc: Intelligent project scaffolding tool with template-based generation and interactive configuration
+      icon: icon icon-forge
+      class: card-project
+      tagline: Project scaffolding tool
+    - url: https://butter-sh.github.io/leaf.sh
+      label: leaf.sh
+      desc: Beautiful documentation generator that transforms project metadata into responsive, modern static websites
+      icon: icon icon-leaf
+      class: card-project
+      tagline: Documentation generator
+    - url: https://butter-sh.github.io/whip.sh
+      label: whip.sh
+      desc: Streamlined release management with semantic versioning, automated changelogs, and git workflow integration
+      icon: icon icon-target
+      class: card-project
+      tagline: Release automation tool
+    - url: https://butter-sh.github.io/clean.sh
+      label: clean.sh
+      desc: POSIX-compliant bash linter and formatter with AST-based parsing, intelligent rule detection, and automatic code fixes
+      icon: icon icon-clean
+      class: card-project
+      tagline: Bash linter and formatter
