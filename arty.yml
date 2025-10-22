@@ -5,6 +5,8 @@ author: "valknar@pivoine.art"
 license: "MIT"
 
 references:
+# - https://github.com/valknarogg/shellcheck.git
+# - https://github.com/butter-sh/shc.git
 - https://github.com/butter-sh/leaf.sh.git
 - https://github.com/butter-sh/whip.sh.git
 
