@@ -2,55 +2,64 @@
   {
     "url": "https://butter-sh.github.io/arty.sh",
     "label": "arty.sh",
-    "desc": "Install bash libraries from Git repositories with complete dependency management",
+    "desc": "Dependency manager for bash libraries with complete package management and Git repository integration",
     "icon": "icon icon-package",
     "class": "card-project",
     "emoji": "📦",
-    "tagline": "Bash library dependency manager"
-  },
-  {
-    "url": "https://butter-sh.github.io/hammer.sh",
-    "label": "hammer.sh",
-    "desc": "Generate projects from templates with variable substitution and smart overwrite handling",
-    "icon": "icon icon-forge",
-    "class": "card-project",
-    "emoji": "🔨",
-    "tagline": "Project scaffolding tool"
+    "tagline": "Bash dependency manager"
   },
   {
     "url": "https://butter-sh.github.io/judge.sh",
     "label": "judge.sh",
-    "desc": "Full assertion library with snapshot testing and beautiful colorful output",
+    "desc": "Professional testing framework with comprehensive assertion library, snapshot testing, and detailed reporting",
     "icon": "icon icon-shield-check",
     "class": "card-project",
     "emoji": "🛡️",
     "tagline": "Bash testing framework"
   },
   {
-    "url": "https://butter-sh.github.io/leaf.sh",
-    "label": "leaf.sh",
-    "desc": "Transform projects into beautiful documentation websites with responsive design",
-    "icon": "icon icon-leaf",
-    "class": "card-project",
-    "emoji": "🍃",
-    "tagline": "Documentation generator"
-  },
-  {
     "url": "https://butter-sh.github.io/myst.sh",
     "label": "myst.sh",
-    "desc": "Mustache-style templating engine with inheritance, partials, and multiple input formats",
+    "desc": "Advanced mustache-style templating engine with conditionals, loops, partials, inheritance, and multi-format input",
     "icon": "icon icon-sparkles",
     "class": "card-project",
     "emoji": "✨",
     "tagline": "Bash templating engine"
   },
   {
+    "url": "https://butter-sh.github.io/hammer.sh",
+    "label": "hammer.sh",
+    "desc": "Intelligent project scaffolding tool with template-based generation and interactive configuration",
+    "icon": "icon icon-forge",
+    "class": "card-project",
+    "emoji": "🔨",
+    "tagline": "Project scaffolding tool"
+  },
+  {
+    "url": "https://butter-sh.github.io/leaf.sh",
+    "label": "leaf.sh",
+    "desc": "Beautiful documentation generator that transforms project metadata into responsive, modern static websites",
+    "icon": "icon icon-leaf",
+    "class": "card-project",
+    "emoji": "🍃",
+    "tagline": "Documentation generator"
+  },
+  {
     "url": "https://butter-sh.github.io/whip.sh",
     "label": "whip.sh",
-    "desc": "Release cycle management with semantic versioning, changelog generation, and git hooks",
+    "desc": "Streamlined release management with semantic versioning, automated changelogs, and git workflow integration",
     "icon": "icon icon-target",
     "class": "card-project",
     "emoji": "🎯",
     "tagline": "Release automation tool"
+  },
+  {
+    "url": "https://butter-sh.github.io/clean.sh",
+    "label": "clean.sh",
+    "desc": "POSIX-compliant bash linter and formatter with AST-based parsing, intelligent rule detection, and automatic code fixes",
+    "icon": "icon icon-clean",
+    "class": "card-project",
+    "emoji": "🧹",
+    "tagline": "Bash linter and formatter"
   }
 ]
