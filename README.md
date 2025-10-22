@@ -33,7 +33,7 @@ butter.sh is a comprehensive ecosystem of interconnected bash tools designed to 
 
 ## Projects
 
-### <img src="https://raw.githubusercontent.com/butter-sh/arty.sh/refs/heads/main/icon.svg" width="20" height="20" align="middle" style="vertical-align: text-bottom;"> arty.sh — Bash Dependency Manager
+### <img src="https://raw.githubusercontent.com/butter-sh/arty.sh/refs/heads/main/icon.svg" width="32" height="32" align="middle" style="vertical-align: text-bottom;"> arty.sh — Bash Dependency Manager
 
 Install and manage bash libraries from Git repositories with complete dependency resolution, automatic linking, and package configuration.
 
@@ -49,7 +49,7 @@ arty exec <library> [args]  # Execute library scripts
 
 ---
 
-### <img src="https://raw.githubusercontent.com/butter-sh/judge.sh/refs/heads/main/icon.svg" width="20" height="20" align="middle" style="vertical-align: text-bottom;"> judge.sh — Testing Framework
+### <img src="https://raw.githubusercontent.com/butter-sh/judge.sh/refs/heads/main/icon.svg" width="32" height="32" align="middle" style="vertical-align: text-bottom;"> judge.sh — Testing Framework
 
 Professional testing framework with comprehensive assertion library, snapshot testing, and beautiful output formatting.
 
@@ -65,7 +65,7 @@ judge snap update test-name  # Update snapshots
 
 ---
 
-### <img src="https://raw.githubusercontent.com/butter-sh/myst.sh/refs/heads/main/icon.svg" width="20" height="20" align="middle" style="vertical-align: text-bottom;"> myst.sh — Templating Engine
+### <img src="https://raw.githubusercontent.com/butter-sh/myst.sh/refs/heads/main/icon.svg" width="32" height="32" align="middle" style="vertical-align: text-bottom;"> myst.sh — Templating Engine
 
 Advanced mustache-style templating with conditionals, loops, partials, template inheritance, and support for JSON, YAML, and environment variables.
 
@@ -80,7 +80,7 @@ myst template.myst -y config.yml -v key=value
 
 ---
 
-### <img src="https://raw.githubusercontent.com/butter-sh/hammer.sh/refs/heads/main/icon.svg" width="20" height="20" align="middle" style="vertical-align: text-bottom;"> hammer.sh — Project Scaffolding
+### <img src="https://raw.githubusercontent.com/butter-sh/hammer.sh/refs/heads/main/icon.svg" width="32" height="32" align="middle" style="vertical-align: text-bottom;"> hammer.sh — Project Scaffolding
 
 Generate complete projects from templates with interactive configuration, variable substitution, and intelligent file management.
 
@@ -96,7 +96,7 @@ hammer list  # Show available templates
 
 ---
 
-### <img src="https://raw.githubusercontent.com/butter-sh/leaf.sh/refs/heads/main/icon.svg" width="20" height="20" align="middle" style="vertical-align: text-bottom;"> leaf.sh — Documentation Generator
+### <img src="https://raw.githubusercontent.com/butter-sh/leaf.sh/refs/heads/main/icon.svg" width="32" height="32" align="middle" style="vertical-align: text-bottom;"> leaf.sh — Documentation Generator
 
 Transform project metadata into beautiful, responsive documentation websites with automatic page generation and modern design.
 
@@ -111,7 +111,7 @@ leaf --landing -p projects.json -o index.html
 
 ---
 
-### <img src="https://raw.githubusercontent.com/butter-sh/whip.sh/refs/heads/main/icon.svg" width="20" height="20" align="middle" style="vertical-align: text-bottom;"> whip.sh — Release Management
+### <img src="https://raw.githubusercontent.com/butter-sh/whip.sh/refs/heads/main/icon.svg" width="32" height="32" align="middle" style="vertical-align: text-bottom;"> whip.sh — Release Management
 
 Automate release workflows with semantic versioning, changelog generation from git history, and automated tagging.
 
@@ -127,7 +127,7 @@ whip changelog     # Generate CHANGELOG.md
 
 ---
 
-### <img src="https://raw.githubusercontent.com/butter-sh/clean.sh/refs/heads/main/icon.svg" width="20" height="20" align="middle" style="vertical-align: text-bottom;"> clean.sh — Linter & Formatter
+### <img src="https://raw.githubusercontent.com/butter-sh/clean.sh/refs/heads/main/icon.svg" width="32" height="32" align="middle" style="vertical-align: text-bottom;"> clean.sh — Linter & Formatter
 
 POSIX-compliant bash linter and formatter with AST-based parsing, intelligent rule detection, and automatic code corrections.
 
