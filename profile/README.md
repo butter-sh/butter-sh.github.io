@@ -1,369 +1,325 @@
 <div align="center">
 
-<img alt="butter.sh logo" src="https://raw.githubusercontent.com/butter-sh/butter-sh.github.io/main/_assets/brand/cube-carbon.png" width="64" height="64"> 
+<img src="./icon.svg" width="120" height="120" alt="butter.sh" style="margin-bottom: 1rem;">
 
 # butter.sh
 
-**Unlimited. Independent. Fresh.**
-
-*A modern bash ecosystem for developers who demand more*
+**Professional Bash Development Ecosystem**
 
 [![Organization](https://img.shields.io/badge/org-butter--sh-4ade80?style=for-the-badge&logo=github&logoColor=white)](https://github.com/butter-sh)
 [![License](https://img.shields.io/badge/license-MIT-86efac?style=for-the-badge)](LICENSE)
-[![Ecosystem](https://img.shields.io/badge/ecosystem-6_projects-22c55e?style=for-the-badge)](#projects)
-[![Fresh](https://img.shields.io/badge/status-fresh-4ade80?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](#)
+[![Projects](https://img.shields.io/badge/projects-7-22c55e?style=for-the-badge)](#projects)
+[![Docs](https://img.shields.io/badge/docs-online-4ade80?style=for-the-badge)](https://butter-sh.github.io)
 
----
+*A complete, integrated suite of tools for professional bash development*
 
-### *Build. Deploy. Document. Test. — All in Bash.*
+[Documentation](https://butter-sh.github.io) • [GitHub](https://github.com/butter-sh) • [Getting Started](#quick-start)
 
 </div>
 
+---
+
 ## What is butter.sh?
 
-butter.sh is a collection of powerful, interconnected bash tools designed to streamline your development workflow. No bloat, no dependencies hell—just pure, efficient bash scripting at its finest.
+butter.sh is a comprehensive ecosystem of interconnected bash tools designed to bring modern development workflows to shell scripting. From dependency management and project scaffolding to testing, documentation, and release automation, butter.sh provides everything needed to build, maintain, and distribute professional bash applications.
 
-**Core Principles:**
+### Philosophy
 
-- **Unlimited** potential in bash scripting
-- **Independent** tools that work together seamlessly  
-- **Fresh** approaches to old problems
+**Unlimited** — No artificial constraints, full control over your bash environment
+**Independent** — Each tool works standalone or as part of the ecosystem
+**Fresh** — Modern features and workflows for contemporary bash development
+
+---
 
 ## Projects
 
-<table>
-  <tr>
-    <td width="50%">
+### <img src="./projects/arty.sh/icon.svg" width="20" height="20" style="vertical-align: text-bottom;"> arty.sh — Bash Dependency Manager
 
-### arty.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/arty.sh/test.yml?branch=main&style=flat-square&logo=github&color=22c55e)](https://github.com/butter-sh/arty.sh/actions)
-[![Version](https://img.shields.io/github/v/tag/butter-sh/arty.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/arty.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-arty-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/arty.sh)
+Install and manage bash libraries from Git repositories with complete dependency resolution, automatic linking, and package configuration.
 
-**Bash library repository management system**
+**Key Features:** Git repository integration • Dependency graph resolution • Binary linking • YAML configuration • Setup hooks
 
-Complete dependency management for bash projects with YAML configuration, setup hooks, and binary linking.
+```bash
+arty install https://github.com/butter-sh/myst.sh.git
+arty deps  # Install all dependencies from arty.yml
+arty exec <library> [args]  # Execute library scripts
+```
 
-[View Project →](https://github.com/butter-sh/arty.sh)
+[Documentation](https://butter-sh.github.io/arty.sh) • [Source](https://github.com/butter-sh/arty.sh)
 
-  </td>
-  <td width="50%">
+---
 
-### hammer.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/hammer.sh/test.yml?branch=main&style=flat-square&logo=github&color=22c55e)](https://github.com/butter-sh/hammer.sh/actions)
-[![Version](https://img.shields.io/github/v/tag/butter-sh/hammer.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/hammer.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-hammer-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/hammer.sh)
+### <img src="./projects/judge.sh/icon.svg" width="20" height="20" style="vertical-align: text-bottom;"> judge.sh — Testing Framework
 
-**Project generator from templates**
+Professional testing framework with comprehensive assertion library, snapshot testing, and beautiful output formatting.
 
-Scaffolding tool with built-in templates, variable substitution, and smart overwrite handling.
+**Key Features:** Rich assertion library • Snapshot testing • Test isolation • Detailed reporting • Colorful output
 
-[View Project →](https://github.com/butter-sh/hammer.sh)
+```bash
+judge run                  # Run all tests
+judge run -t test-name     # Run specific test
+judge snap update test-name  # Update snapshots
+```
 
-  </td>
-  </tr>
-  <tr>
-    <td width="50%">
+[Documentation](https://butter-sh.github.io/judge.sh) • [Source](https://github.com/butter-sh/judge.sh)
 
-### judge.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/judge.sh/test.yml?branch=main&style=flat-square&logo=github&color=22c55e)](https://github.com/butter-sh/judge.sh/actions)
-[![Version](https://img.shields.io/github/v/tag/butter-sh/judge.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/judge.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-judge-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/judge.sh)
+---
 
-**Testing framework with snapshot support**
+### <img src="./projects/myst.sh/icon.svg" width="20" height="20" style="vertical-align: text-bottom;"> myst.sh — Templating Engine
 
-Comprehensive testing framework with rich assertions, snapshot testing, and colorful output.
+Advanced mustache-style templating with conditionals, loops, partials, template inheritance, and support for JSON, YAML, and environment variables.
 
-[View Project →](https://github.com/butter-sh/judge.sh)
+**Key Features:** Mustache syntax • Conditionals & loops • Partials & inheritance • Multi-format input • Nested data access
 
-  </td>
-  <td width="50%">
+```bash
+myst template.myst -d data.json -o output.txt
+myst template.myst -y config.yml -v key=value
+```
 
-### leaf.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/leaf.sh/test.yml?branch=main&style=flat-square&logo=github&color=22c55e)](https://github.com/butter-sh/leaf.sh/actions)
-[![Version](https://img.shields.io/github/v/tag/butter-sh/leaf.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/leaf.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-leaf-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/leaf.sh)
+[Documentation](https://butter-sh.github.io/myst.sh) • [Source](https://github.com/butter-sh/myst.sh)
 
-**Documentation generator**
+---
 
-Beautiful static HTML documentation generator with responsive design, syntax highlighting, and themes.
+### <img src="./projects/hammer.sh/icon.svg" width="20" height="20" style="vertical-align: text-bottom;"> hammer.sh — Project Scaffolding
 
-[View Project →](https://github.com/butter-sh/leaf.sh)
+Generate complete projects from templates with interactive configuration, variable substitution, and intelligent file management.
 
-  </td>
-  </tr>
-  <tr>
-    <td width="50%">
+**Key Features:** Template-based generation • Interactive prompts • Variable substitution • Smart overwrite detection • Integration with myst.sh
 
-### myst.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/myst.sh/test.yml?branch=main&style=flat-square&logo=github&color=22c55e)](https://github.com/butter-sh/myst.sh/actions)
-[![Version](https://img.shields.io/github/v/tag/butter-sh/myst.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/myst.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-myst-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/myst.sh)
+```bash
+hammer init project-name
+hammer new template-name output-dir
+hammer list  # Show available templates
+```
 
-**Mustache-style templating engine**
+[Documentation](https://butter-sh.github.io/hammer.sh) • [Source](https://github.com/butter-sh/hammer.sh)
 
-Bash templating with inheritance, partials, and multiple input formats including JSON, YAML, and ENV.
+---
 
-[View Project →](https://github.com/butter-sh/myst.sh)
+### <img src="./projects/leaf.sh/icon.svg" width="20" height="20" style="vertical-align: text-bottom;"> leaf.sh — Documentation Generator
 
-  </td>
-  <td width="50%">
+Transform project metadata into beautiful, responsive documentation websites with automatic page generation and modern design.
 
-### whip.sh
-[![Build Status](https://img.shields.io/github/actions/workflow/status/butter-sh/whip.sh/test.yml?branch=main&style=flat-square&logo=github&color=22c55e)](https://github.com/butter-sh/whip.sh/actions)
-[![Version](https://img.shields.io/github/v/tag/butter-sh/whip.sh?style=flat-square&label=version&color=4ade80)](https://github.com/butter-sh/whip.sh/releases)
-[![butter.sh](https://img.shields.io/badge/butter.sh-whip-22c55e?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMjEgMTZWOGEyIDIgMCAwIDAtMS0xLjczbC03LTRhMiAyIDAgMCAwLTIgMGwtNyA0QTIgMiAwIDAgMCAzIDh2OGEyIDIgMCAwIDAgMSAxLjczbDcgNGEyIDIgMCAwIDAgMiAwbDctNEEyIDIgMCAwIDAgMjEgMTZ6IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+PHBvbHlsaW5lIHBvaW50cz0iMy4yNyA2Ljk2IDEyIDEyLjAxIDIwLjczIDYuOTYiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48bGluZSB4MT0iMTIiIHkxPSIyMi4wOCIgeDI9IjEyIiB5Mj0iMTIiIHN0cm9rZT0iIzRhZGU4MCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48L3N2Zz4=)](https://github.com/butter-sh/whip.sh)
+**Key Features:** Responsive design • Automatic navigation • Syntax highlighting • Theme support • arty.yml integration
 
-**Release cycle management**
+```bash
+leaf project-dir -o docs/
+leaf --landing -p projects.json -o index.html
+```
 
-Complete release automation with semantic versioning, changelog generation, git hooks, and monorepo support.
+[Documentation](https://butter-sh.github.io/leaf.sh) • [Source](https://github.com/butter-sh/leaf.sh)
 
-[View Project →](https://github.com/butter-sh/whip.sh)
+---
 
-  </td>
-  </tr>
-</table>
+### <img src="./projects/whip.sh/icon.svg" width="20" height="20" style="vertical-align: text-bottom;"> whip.sh — Release Management
+
+Automate release workflows with semantic versioning, changelog generation from git history, and automated tagging.
+
+**Key Features:** Semantic versioning • Automated changelogs • Git tag creation • Monorepo support • Git hooks
+
+```bash
+whip bump patch    # Bump patch version
+whip bump minor    # Bump minor version
+whip changelog     # Generate CHANGELOG.md
+```
+
+[Documentation](https://butter-sh.github.io/whip.sh) • [Source](https://github.com/butter-sh/whip.sh)
+
+---
+
+### <img src="./projects/clean.sh/icon.svg" width="20" height="20" style="vertical-align: text-bottom;"> clean.sh — Linter & Formatter
+
+POSIX-compliant bash linter and formatter with AST-based parsing, intelligent rule detection, and automatic code corrections.
+
+**Key Features:** AST-based parsing • Auto-fix formatting • Style enforcement • Context-aware rules • Heredoc preservation
+
+```bash
+clean lint script.sh         # Check for issues
+clean format script.sh       # Auto-format code
+clean check script.sh        # Lint without modify
+```
+
+[Documentation](https://butter-sh.github.io/clean.sh) • [Source](https://github.com/butter-sh/clean.sh)
+
+---
 
 ## Quick Start
 
-### Install Core Tools
+### Installation
+
+Each tool can be installed independently. The recommended approach is to start with **arty.sh** as your dependency manager:
 
 ```bash
-# Install arty.sh (dependency manager)
+# Install arty.sh
 curl -sSL https://raw.githubusercontent.com/butter-sh/arty.sh/main/arty.sh | sudo tee /usr/local/bin/arty > /dev/null
 sudo chmod +x /usr/local/bin/arty
 
-# Install hammer.sh (project generator)
-curl -sSL https://raw.githubusercontent.com/butter-sh/hammer.sh/main/hammer.sh | sudo tee /usr/local/bin/hammer > /dev/null
-sudo chmod +x /usr/local/bin/hammer
-
-# Install whip.sh (release manager)
-curl -sSL https://raw.githubusercontent.com/butter-sh/whip.sh/main/whip.sh | sudo tee /usr/local/bin/whip > /dev/null
-sudo chmod +x /usr/local/bin/whip
-```
-
-### Install via Git Clone
-
-```bash
-# Clone individual projects
-git clone https://github.com/butter-sh/judge.sh.git
-git clone https://github.com/butter-sh/leaf.sh.git
-git clone https://github.com/butter-sh/myst.sh.git
-
-# Or use arty.sh to manage them
+# Initialize your project
 arty init my-project
 cd my-project
-arty install https://github.com/butter-sh/judge.sh.git
-arty install https://github.com/butter-sh/leaf.sh.git
-arty install https://github.com/butter-sh/myst.sh.git
+
+# Add butter.sh tools as dependencies
+cat > arty.yml << 'EOF'
+name: "my-project"
+version: "1.0.0"
+
+references:
+  - https://github.com/butter-sh/judge.sh.git
+  - https://github.com/butter-sh/myst.sh.git
+  - https://github.com/butter-sh/clean.sh.git
+
+scripts:
+  test: "arty exec judge run"
+  lint: "arty exec clean lint *.sh"
+  format: "arty exec clean format *.sh"
+EOF
+
+# Install all dependencies
+arty deps
 ```
 
-## Example Workflow
+### System Requirements
 
-Here's how butter.sh tools work together:
+- **Bash** 4.0 or higher
+- **Git** for repository management
+- **yq** for YAML processing ([installation guide](https://github.com/mikefarah/yq))
+- **jq** for JSON processing
+
+---
+
+## Integration Example
+
+Here's how the tools work together in a complete development workflow:
 
 ```bash
-# 1. Generate a new library project with hammer.sh
-hammer arty my-awesome-lib
-cd my-awesome-lib
+# 1. Create new project with hammer.sh
+hammer init awesome-tool
 
-# 2. Write your bash library
-cat > my-awesome-lib.sh << 'EOF'
+# 2. Configure dependencies in arty.yml
+cat > arty.yml << 'EOF'
+name: "awesome-tool"
+version: "0.1.0"
+references:
+  - https://github.com/butter-sh/judge.sh.git
+  - https://github.com/butter-sh/clean.sh.git
+  - https://github.com/butter-sh/leaf.sh.git
+  - https://github.com/butter-sh/whip.sh.git
+scripts:
+  test: "arty exec judge run"
+  lint: "arty exec clean lint *.sh"
+  format: "arty exec clean format *.sh"
+  docs: "arty exec leaf . -o docs/"
+  release: "arty exec whip bump"
+EOF
+
+# 3. Install dependencies
+arty deps
+
+# 4. Write your code
+cat > awesome-tool.sh << 'EOF'
 #!/usr/bin/env bash
-awesome_function() {
-    echo "Butter makes everything better!"
+echo "Hello from awesome-tool!"
+EOF
+
+# 5. Format and lint
+arty format
+arty lint
+
+# 6. Write tests
+mkdir -p __tests
+cat > __tests/test-awesome-tool.sh << 'EOF'
+#!/usr/bin/env bash
+source "$(dirname "$0")/../test-helpers.sh"
+
+test_hello() {
+  output=$(bash awesome-tool.sh)
+  assert_contains "$output" "Hello" "Should greet"
 }
 EOF
 
-# 3. Install judge.sh for testing
-arty install https://github.com/butter-sh/judge.sh.git
+# 7. Run tests
+arty test
 
-# 4. Create tests with judge.sh
-cat > test_lib.sh << 'EOF'
-#!/usr/bin/env bash
-source "$(arty source judge.sh)/test-helpers.sh"
-source my-awesome-lib.sh
+# 8. Generate documentation
+arty docs
 
-log_section "Awesome library tests"
-setup_test_env
-
-log_test "should be awesome"
-result=$(awesome_function)
-assert_contains "$result" "Butter"
-
-cleanup_test_env
-print_test_summary
-EOF
-
-# 5. Run tests
-arty exec judge run
-
-# 6. Generate documentation
-arty install https://github.com/butter-sh/leaf.sh.git
-arty exec leaf .
-
-# 7. Create a release
-arty install https://github.com/butter-sh/whip.sh.git
-arty exec whip release patch
-
-# 8. Use your library in another project
-cd ..
-arty init consumer-project
-cd consumer-project
-arty install ../my-awesome-lib
-
-# 9. Use it
-cat > main.sh << 'EOF'
-#!/usr/bin/env bash
-source <(arty source my-awesome-lib)
-awesome_function
-EOF
-
-bash main.sh
+# 9. Create release
+arty release patch
 ```
 
-## Features That Make Us Different
-
-### Zero Dependencies
-Every tool in the butter.sh ecosystem is pure bash. No npm, no pip, no cargo—just bash and common Unix tools.
-
-### Seamless Integration  
-Tools are designed to work together but remain completely independent. Use one, use all—your choice.
-
-### Lightning Fast
-Bash is fast. Really fast. No startup time, no compilation, no JVM warmup.
-
-### Package Management Done Right
-arty.sh brings modern dependency management to bash without the bloat of traditional package managers.
-
-### Beautiful Output
-Colorful, informative, and user-friendly CLI interfaces that make bash development enjoyable.
-
-### Test-Driven Development
-judge.sh brings assertion libraries and snapshot testing to bash—professionally and reliably.
-
-### Documentation First
-leaf.sh generates stunning documentation websites from your bash projects automatically.
-
-### Rapid Prototyping
-hammer.sh scaffolds complete projects in seconds with customizable templates.
-
-## Architecture
-
-```
-butter.sh ecosystem
-│
-├── arty.sh          → Dependency management & library installation
-│   ├── Install from Git repositories
-│   ├── YAML-based configuration (arty.yml)
-│   ├── Setup hooks for initialization
-│   └── Binary linking for executables
-│
-├── hammer.sh        → Project scaffolding & generation
-│   ├── Built-in templates (arty, starter, leaf, judge, myst, whip)
-│   ├── Variable substitution
-│   ├── Smart overwrite handling
-│   └── Custom template support
-│
-├── judge.sh         → Testing framework
-│   ├── Rich assertion library
-│   ├── Snapshot testing
-│   ├── Colorful output
-│   └── CI/CD integration
-│
-├── leaf.sh          → Documentation generation
-│   ├── Markdown to HTML
-│   ├── Syntax highlighting
-│   ├── Responsive design
-│   ├── Dark/light theme
-│   └── Powered by myst.sh
-│
-├── myst.sh          → Templating engine
-│   ├── Mustache-style syntax
-│   ├── Template inheritance
-│   ├── Partials support
-│   ├── Multiple input formats (JSON, YAML, ENV)
-│   └── Embeddable as library
-│
-└── whip.sh          → Release management
-    ├── Semantic versioning (major/minor/patch)
-    ├── Changelog generation from git
-    ├── Git hooks with validation  
-    └── Monorepo batch operations
-```
-
-## Why butter.sh?
-
-### For Bash Developers
-Modern tooling for an ancient language with dependency management that actually works, testing frameworks to catch bugs early, and documentation that writes itself.
-
-### For DevOps Engineers
-No runtime dependencies to manage, lightning fast execution, CI/CD ready out of the box, and portable across all Unix systems.
-
-### For Open Source Maintainers
-Beautiful project pages generated automatically, comprehensive testing without complexity, easy contribution with clear project structure, and professional appearance that builds trust.
+---
 
 ## Documentation
 
-Each project has comprehensive documentation:
+Complete documentation for all projects is available at [butter-sh.github.io](https://butter-sh.github.io)
 
-- [arty.sh](https://github.com/butter-sh/arty.sh) - Dependency management
-- [hammer.sh](https://github.com/butter-sh/hammer.sh) - Project generator
-- [judge.sh](https://github.com/butter-sh/judge.sh) - Testing framework
-- [leaf.sh](https://github.com/butter-sh/leaf.sh) - Documentation generator
-- [myst.sh](https://github.com/butter-sh/myst.sh) - Templating engine
-- [whip.sh](https://github.com/butter-sh/whip.sh) - Release management
+Individual project documentation:
+- [arty.sh docs](https://butter-sh.github.io/arty.sh)
+- [judge.sh docs](https://butter-sh.github.io/judge.sh)
+- [myst.sh docs](https://butter-sh.github.io/myst.sh)
+- [hammer.sh docs](https://butter-sh.github.io/hammer.sh)
+- [leaf.sh docs](https://butter-sh.github.io/leaf.sh)
+- [whip.sh docs](https://butter-sh.github.io/whip.sh)
+- [clean.sh docs](https://butter-sh.github.io/clean.sh)
+
+---
+
+## Repository Structure
+
+```
+butter.sh/
+├── projects/              # Individual tool projects
+│   ├── arty.sh/          # Dependency manager
+│   ├── judge.sh/         # Testing framework
+│   ├── myst.sh/          # Templating engine
+│   ├── hammer.sh/        # Project scaffolding
+│   ├── leaf.sh/          # Documentation generator
+│   ├── whip.sh/          # Release management
+│   └── clean.sh/         # Linter and formatter
+├── docs/                  # Generated documentation
+├── _assets/               # Shared assets and styles
+├── projects.json          # Project metadata
+└── icon.svg               # butter.sh logo
+```
+
+---
 
 ## Contributing
 
-We love contributions! Each project accepts PRs:
+Contributions are welcome across all projects in the butter.sh ecosystem! Each project has its own repository and issue tracker.
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing`)
-5. Open a Pull Request
+### Development Workflow
 
-### Areas We Need Help With
+1. Fork the project repository
+2. Create a feature branch
+3. Make your changes with tests
+4. Run linter and formatter: `arty format && arty lint`
+5. Run test suite: `arty test`
+6. Submit a pull request
 
-Documentation improvements, bug fixes and issue reports, new features and enhancements, new templates for hammer.sh, more test cases for judge.sh, and internationalization.
+### Running Tests
 
-## Ecosystem Stats
+```bash
+cd projects/<project-name>
+../../projects/judge.sh/judge.sh run
+```
 
-[![Total Stars](https://img.shields.io/badge/dynamic/json?color=4ade80&label=total%20stars&query=%24.stars&url=https%3A%2F%2Fapi.github.com%2Forgs%2Fbutter-sh&style=for-the-badge&logo=github)](https://github.com/butter-sh)
-[![Contributors](https://img.shields.io/badge/contributors-welcome-86efac?style=for-the-badge&logo=github)](https://github.com/butter-sh)
-[![Projects](https://img.shields.io/badge/active_projects-6-22c55e?style=for-the-badge)](#projects)
-[![Bash](https://img.shields.io/badge/bash-4.0+-4ade80?style=for-the-badge&logo=gnu-bash&logoColor=white)](#)
+---
 
 ## License
 
-All butter.sh projects are released under the MIT License. See individual project repositories for details.
+All projects in the butter.sh ecosystem are released under the **MIT License**.
 
-## Links
-
-- **Organization**: [github.com/butter-sh](https://github.com/butter-sh)
-- **Author**: [github.com/valknarogg](https://github.com/valknarogg)
-- **Documentation**: Individual project pages
-
-## Community
-
-Join the butter.sh community by reporting bugs through issues in individual project repos, requesting features by starting a discussion in the relevant project, and showing your support by starring projects on GitHub.
-
-## Acknowledgments
-
-butter.sh is built on the shoulders of giants: the GNU Bash team for an amazing shell, the open source community for endless inspiration, and all contributors who make butter.sh better every day.
+See individual project repositories for license details.
 
 ---
 
 <div align="center">
 
-### Made with care by [valknar](https://github.com/valknarogg)
+### Crafted with care by [Valknar](https://github.com/valknarogg)
 
 **Unlimited. Independent. Fresh.**
 
-[![Star History](https://img.shields.io/github/stars/butter-sh?style=social)](https://github.com/butter-sh)
-[![Follow](https://img.shields.io/github/followers/valknarogg?label=Follow&style=social)](https://github.com/valknarogg)
-
-*Spread the butter! Star our projects if you find them useful.*
+[![GitHub](https://img.shields.io/badge/github-valknarogg-22c55e?style=flat-square&logo=github)](https://github.com/valknarogg)
 
 </div>
