@@ -19,7 +19,7 @@ scripts:
     arty icons
   docs: |
     arty predocs &&
-    arty exec leaf landing --logo ./icon.svg -o ./docs
+    arty exec leaf landing --logo ./icon.svg --github-org butter-sh -o ./docs
 
 leaf:
   landing:
