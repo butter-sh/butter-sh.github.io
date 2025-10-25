@@ -4,11 +4,31 @@ description: "A bash ecosystem"
 author: "valknar@pivoine.art"
 license: "MIT"
 
+envs:
+  dev:
+
+
 references:
-# - https://github.com/valknarogg/shellcheck.git
-# - https://github.com/butter-sh/shc.git
-- https://github.com/butter-sh/leaf.sh.git
-- https://github.com/butter-sh/whip.sh.git
+- url: git@github.com:butter-sh/arty.sh
+  into: projects/arty.sh
+  env: dev
+- url: git@github.com:butter-sh/judge.sh
+  into: projects/judge.sh
+  env: dev
+- url: git@github.com:butter-sh/myst.sh
+  into: projects/myst.sh
+  env: dev
+- url: git@github.com:butter-sh/hammer.sh
+  into: projects/hammer.sh
+  env: dev
+- url: git@github.com:butter-sh/leaf.sh
+  into: projects/leaf.sh
+- url: git@github.com:butter-sh/whip.sh
+  into: projects/whip.sh
+  env: dev
+- url: git@github.com:butter-sh/clean.sh
+  into: projects/clean.sh
+  env: dev
 
 scripts:
   icons: |
